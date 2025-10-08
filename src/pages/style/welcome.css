@@ -1,0 +1,44 @@
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  height: auto;
+}
+
+.buton-login{
+  position: absolute;
+  background-color: blueviolet;
+  left: 10%;
+  color: aliceblue;
+  top: 550px;
+  width: 125px;
+}
+
+#signUp{
+  left: 20%;
+}
+
+#welcome-container {
+  color: aliceblue;
+}
+
+#title {
+  position: absolute;
+  font-size: 70px;
+  left: 10%;
+  top: 150px;
+}
+
+#desc {
+  position: absolute;
+  font-size: 20px;
+  left: 10%;
+  top: 400px;
+  text-align: left;
+}
+
+#front-image {
+  position: absolute;
+  top: 200px;
+}
