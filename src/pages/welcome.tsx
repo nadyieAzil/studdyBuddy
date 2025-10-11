@@ -1,10 +1,11 @@
 import "./style/welcome.css";
-import frontImage from "../assets/front-image.png"
+import frontImage from "../assets/front-image2.png"
 
 
 const Welcome = () => {
   return (
-    <div id="welcome-container">
+    <div id="welcome" className="welcome-container">
+
       <h1 id="title">
         STUDY <br></br>BUDDY
       </h1>
@@ -12,7 +13,7 @@ const Welcome = () => {
       <img src={frontImage} id="front-image" />
       <p id="desc">
         A platfrom where we help you with study to <br></br>achieve remarkable
-        academicachivement
+        academic achivement
       </p>
       <button className="buton-login">LOGIN</button>
       <button className="buton-login" id="signUp">SIGN UP</button>

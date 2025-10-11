@@ -19,10 +19,6 @@
   left: 20%;
 }
 
-#welcome-container {
-  color: aliceblue;
-}
-
 #title {
   position: absolute;
   font-size: 70px;
@@ -40,5 +36,15 @@
 
 #front-image {
   position: absolute;
-  top: 200px;
+  top: 100px;
+}
+
+.welcome-container {
+  /*position: relative; to ensure absolute children are positioned relative to this container*/
+  height: 100vh; /* full screen height */
+  width: 100%;
+  background: linear-gradient(180deg, #1a1a2e, #16213e) !important;
+  z-index: 0;
+  text-align: center;
+  overflow: hidden;
 }
